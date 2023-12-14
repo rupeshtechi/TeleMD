@@ -29,7 +29,7 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
-        run: python app.py
+             python app.py
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
