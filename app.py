@@ -34,8 +34,8 @@ def login():
     grant.room = 'My Room'
     token.add_grant(grant)
     #token.add_grant(VideoGrant(room='My Room'))
-    return  token.to_jwt() 
-    #return {'token': token.to_jwt()}
+    #return  token.to_jwt() 
+    return {'token': token.to_jwt()}
 
 
 
